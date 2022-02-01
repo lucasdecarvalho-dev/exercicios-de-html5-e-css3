@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="https://gustavoguanabara.github.io/html-css/exercicios/modulo-01/ex011/imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="https://gustavoguanabara.github.io/html-css/exercicios/modulo-01/ex011/imagens/foto-m.png">
+        <img src="https://gustavoguanabara.github.io/html-css/exercicios/modulo-01/ex011/imagens/foto-g.png" alt="foto grande">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="./audio/Justin Bieber - Only Thing I Ever Get For Christmas (Lyric Video).mp3" type="audio/mp3">
+        <source src="./audio/Justin Bieber - Only Thing I Ever Get For Christmas (Lyric Video).ogg" type="audio/ogg">
+        <source src="./audio/Justin Bieber - Only Thing I Ever Get For Christmas (Lyric Video).wav" type="audio/wav">
+        <p>Infelizmente não foi possível reproduzir o áudio no seu navegador. <a href="./audio/Justin Bieber - Only Thing I Ever Get For Christmas (Lyric Video).mp3" download="only_thing.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>

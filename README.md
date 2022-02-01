@@ -1,0 +1,1 @@
+### Olá, este repositório é de exercícios de HTML5 e CSS3 concluídos do Curso em Vídeo (Gustavo Guanabara)
